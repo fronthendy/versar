@@ -17,6 +17,9 @@ body {
 
 header {
     width: 20vw;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 header .logo {
@@ -31,7 +34,7 @@ main {
     flex-direction: column;
     justify-content: center;
     padding: 100px 20px 0;
-    margin-right: 40vw;
+    margin: 0 40vw 0 20vw;
 }
 
 aside {
@@ -113,10 +116,12 @@ small a {
     main,
     aside {
         width: 100%;
+        position: relative;
     }
 
     main {
         padding: 30px 50px;
+        margin: 0;
     }
 
     aside {
@@ -125,6 +130,5 @@ small a {
         background-position: left;
         background-size: 100%;
         /* transform: rotate(90deg); */
-        position: relative;
     }
 }
