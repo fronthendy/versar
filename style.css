@@ -38,7 +38,7 @@ main {
 }
 
 aside {
-    width: 40vw;
+    width: 30vw;
     height: 100vh;
     background-image: url('bg.png');
     background-position: left;
@@ -89,7 +89,7 @@ strong {
 
 p {
     color: #b4ada5;
-    font-size: 23px;
+    font-size: 20px;
     margin: 0;
 }
 
@@ -104,6 +104,26 @@ small a {
     color: #f4313f;
     text-decoration: none;
 
+}
+
+@media (max-width: 960px) {
+    aside {
+        width: 30vw;
+    }
+
+    main {
+        margin-right: 30vw;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1220px) {
+    h1 {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 768px) {
