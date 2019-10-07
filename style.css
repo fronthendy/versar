@@ -31,7 +31,7 @@ main {
     flex-direction: column;
     justify-content: center;
     padding: 100px 20px 0;
-
+    margin-right: 40vw;
 }
 
 aside {
@@ -39,8 +39,11 @@ aside {
     height: 100vh;
     background-image: url('bg.png');
     background-position: left;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 aside img {
@@ -122,5 +125,6 @@ small a {
         background-position: left;
         background-size: 100%;
         /* transform: rotate(90deg); */
+        position: relative;
     }
 }
