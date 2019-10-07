@@ -28,7 +28,7 @@ header .logo {
 }
 
 main {
-    width: 50vw;
+    width: 530px;
     max-width: 100%;
     display: flex;
     flex-direction: column;
